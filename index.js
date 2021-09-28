@@ -4,11 +4,9 @@ var expand = document.querySelector('hr')
 
 
 orange.addEventListener('mouseenter',function(){
-    console.log("entered")
     expand.style.width="80%"
 })
 orange.addEventListener('mouseleave',function(){
-    console.log("left")
     expand.style.width="50%"
 })
 
